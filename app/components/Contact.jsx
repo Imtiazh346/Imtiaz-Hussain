@@ -7,15 +7,15 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const Contact = () => {
   return (
-    <section className="h-screen w-full md:py-20 lg:py-40 mx-auto">
-      <div className="max-w-[1240px] h-full w-full mx-auto">
+    <section id="contact" className="h-screen w-full md:py-20 lg:py-40 mx-auto">
+      <div className="max-w-[1240px] px-8 h-full w-full mx-auto">
         <p className="uppercase tracking-widest text-[#fc9b4b] text-lg px-5 lg:px-0">
           Contact
         </p>
         <h2 className="text-3xl px-5 lg:px-0">Let's Connect</h2>
-        <div className="mx-auto py-8 px-4 md:px-0 md:grid grid-cols-3 grid-rows-1 gap-10">
+        <div className="mx-auto py-8 px-4 md:px-0 md:grid grid-cols-8 grid-rows-1">
           {/* left col */}
-          <div className="px-5 rounded-xl shadow-lg shadow-gray-400 col-span-1">
+          <div className="px-5 rounded-xl shadow-lg shadow-gray-400 col-span-3">
             <img src="/images/contact.png" alt="" height={400} width={300} />
             <h1 className="uppercase text-left text-2xl md:text-3xl lg:text-4xl pt-8">
               Imtiaz Hussain
@@ -41,19 +41,20 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          <div className="col-span-[100px]"></div>
           {/* right col */}
-          <div className="py-16 lg:py-12 rounded-xl shadow-lg shadow-gray-400 col-span-2 ml-4 max-w-[600px]">
+          <div className="py-16 lg:py-12 rounded-xl shadow-lg shadow-gray-400 col-span-4">
             <h3 className="py-6 px-3 text-2xl ">GET IN TOUCH</h3>
             <form action="">
               <div className="md:flex gap-8 md:pb-4 px-3 md:px-4">
-                <div className="pb-2 md:pb-0">
+                <div className="w-full pb-2 md:pb-0">
                   <input
                     className="w-full py-2 px-2 rounded-xl  placeholder-slate-400 outline-none"
                     type="text"
                     placeholder="Name"
                   />
                 </div>
-                <div className="py-2 md:py-0">
+                <div className="py-2 w-full md:py-0">
                   <input
                     className="w-full py-2 px-2 rounded-xl placeholder-slate-400 outline-none "
                     type="text"

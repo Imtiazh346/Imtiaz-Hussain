@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: " Imtiaz Hussain | Front-end developer ",
   description:
-    "Hi, if you need website in React/Next, Shopify or Wordpress than youre at right place.",
+    "Hi, if you need website in React/Next, Shopify or Wordpress than you're at right place.",
 };
 
 export default function RootLayout({ children }) {

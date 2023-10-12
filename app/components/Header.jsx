@@ -37,23 +37,23 @@ const Header = () => {
       }`}
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
-        <img src="/next.svg" alt="" width={125} height={80} />
+        <img src="/next.svg" alt="IMTIAZ" width={125} height={80} />
         <div className="">
           <ul className="hidden md:flex">
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">Home</Link>
+              <Link href="#home">Home</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">About</Link>
+              <Link href="#about">About</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">Skills</Link>
+              <Link href="#skills">Skills</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">Projects</Link>
+              <Link href="#portfolio">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
@@ -76,7 +76,7 @@ const Header = () => {
               <img src="/next.svg" alt="" width={87} height={35} />
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-white"
               >
                 <AiOutlineClose size={12} />
               </div>
@@ -89,19 +89,19 @@ const Header = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="#home">
                 <li className="py-4 text-sm"> Home</li>
               </Link>
-              <Link href="/">
+              <Link href="#about">
                 <li className="py-4 text-sm"> About</li>
               </Link>
-              <Link href="/">
+              <Link href="#skills">
                 <li className="py-4 text-sm"> Skills</li>
               </Link>
-              <Link href="/">
+              <Link href="#portfolio">
                 <li className="py-4 text-sm"> Projects</li>
               </Link>
-              <Link href="/">
+              <Link href="#contact">
                 <li className="py-4 text-sm"> Contact</li>
               </Link>
             </ul>

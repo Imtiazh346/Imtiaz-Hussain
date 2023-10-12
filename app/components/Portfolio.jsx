@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-// Import your image files
 import One from "/public/images/One.jpg";
 import Two from "/public/images/Two.jpg";
 import Three from "/public/images/Three.jpg";
@@ -12,7 +11,7 @@ import Six from "/public/images/Six.jpg";
 
 const Portfolio = () => {
   return (
-    <section className="w-full lg:h-screen py-4 mb-[70px]">
+    <section id="portfolio" className="w-full lg:h-screen py-4 mb-[70px]">
       <div className="max-w-[1240px] px-10 h-full w-full mx-auto ">
         <p className="text-[#fc9b4b] tracking-widest uppercase text-lg">
           Projects

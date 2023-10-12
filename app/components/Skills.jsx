@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="lg:h-screen w-full lg:pt-0">
+    <section id="skills" className="lg:h-screen w-full lg:pt-0">
       <div className="max-w-[1240] mx-auto px-10 w-full">
         <p className="uppercase tracking-widest text-[#fc9b4b] text-lg">
           Skills

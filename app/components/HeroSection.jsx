@@ -6,7 +6,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const HeroSection = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[330px]  sm:max-w-[500px] lg:max-w-[700px] h-full mx-auto p-2 flex items-center justify-center flex-col m-auto">
         <div>
           <p className="uppercase text-[14px] md:text-[15] lg:text-[18] ">

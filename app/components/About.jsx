@@ -4,7 +4,7 @@ import { Image } from "next/image";
 
 const About = () => {
   return (
-    <section className="w-full">
+    <section id="about" className="w-full">
       <div className="max-w-[1240px] h-full w-full md:grid md:grid-cols-2 md:py-2 m-auto ">
         <div className="px-3 md:px-3  md:py-0 mt-[30px] lg:mt-[60px]">
           <p className="uppercase tracking-widest text-[#fc9b4b] text-lg ">
