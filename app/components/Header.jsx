@@ -37,7 +37,7 @@ const Header = () => {
       }`}
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
-        <img src="/next.svg" alt="IMTIAZ" width={125} height={80} />
+        <img src="/images/logo.png" alt="IMTIAZ" width={200} height={150} />
         <div className="">
           <ul className="hidden md:flex">
             <li className="ml-10 text-sm uppercase hover:border-b">
