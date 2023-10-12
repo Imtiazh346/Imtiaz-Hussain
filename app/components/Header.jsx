@@ -110,9 +110,11 @@ const Header = () => {
                 Let's connect
               </p>
               <div className="flex justify-between items-center my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <FaLinkedin size={18} />
-                </div>
+                <Link href="https://www.linkedin.com/in/imtiazh346/ ">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
+                    <FaLinkedin size={18} />
+                  </div>
+                </Link>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
                   <BsGithub size={18} />
                 </div>

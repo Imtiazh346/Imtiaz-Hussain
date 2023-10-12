@@ -29,18 +29,43 @@ const HeroSection = () => {
             satisfaction through timely execution.
           </p>
           <div className="max-w-[330px] flex justify-between items-center m-auto mt-4 text-[#fc9b4b] text-[20px]">
-            <div className="rounded-full shadow-md shadow-gray-400 p-4 sm:p-5  lg:p-6 cursor-pointer hover:scale-110 ease-in duration-500">
-              <FaLinkedin />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-5  lg:p-6  cursor-pointer hover:scale-110 ease-in duration-500">
-              <BsGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-5  lg:p-6  cursor-pointer hover:scale-110 ease-in duration-500">
-              <BiLogoGmail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-5  lg:p-6  cursor-pointer hover:scale-110 ease-in duration-500">
-              <BsFillPersonLinesFill />
-            </div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/imtiazh346/"
+            >
+              <div className="rounded-full shadow-md shadow-gray-400 p-4 sm:p-5 lg:p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                <FaLinkedin />
+              </div>
+            </a>
+            <a
+              href="https://github.com/Imtiazh346"
+              target="_blank"
+              rel="noopener noreferrers"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-5  lg:p-6  cursor-pointer hover:scale-110 ease-in duration-500">
+                <BsGithub />
+              </div>
+            </a>
+            <a
+              href="mailto:imtiazh346@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-5  lg:p-6  cursor-pointer hover:scale-110 ease-in duration-500">
+                <BiLogoGmail />
+              </div>
+            </a>
+
+            <a
+              href="tel:+923003360499"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-5  lg:p-6  cursor-pointer hover:scale-110 ease-in duration-500">
+                <BsFillPersonLinesFill />
+              </div>
+            </a>
           </div>
         </div>
       </div>
