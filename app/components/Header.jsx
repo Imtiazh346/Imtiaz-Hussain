@@ -40,19 +40,19 @@ const Header = () => {
         <img src="/images/logo.png" alt="IMTIAZ" width={200} height={150} />
         <div className="">
           <ul className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b  scroll-smooth">
               <Link href="#home">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b  scroll-smooth">
               <Link href="#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b  scroll-smooth">
               <Link href="#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b  scroll-smooth">
               <Link href="#portfolio">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b  scroll-smooth">
               <Link href="#contact">Contact</Link>
             </li>
           </ul>
@@ -89,19 +89,19 @@ const Header = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="#home">
+              <Link href="home">
                 <li className="py-4 text-sm"> Home</li>
               </Link>
-              <Link href="#about">
+              <Link href="about">
                 <li className="py-4 text-sm"> About</li>
               </Link>
-              <Link href="#skills">
+              <Link href="skills">
                 <li className="py-4 text-sm"> Skills</li>
               </Link>
-              <Link href="#portfolio">
+              <Link href="portfolio">
                 <li className="py-4 text-sm"> Projects</li>
               </Link>
-              <Link href="#contact">
+              <Link href="contact">
                 <li className="py-4 text-sm"> Contact</li>
               </Link>
             </ul>
