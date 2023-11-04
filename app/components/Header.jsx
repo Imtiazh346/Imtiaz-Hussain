@@ -82,13 +82,13 @@ const Header = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 py-4">
-              <p className="w-[85%] md:w-[90%] py-4">
+              <p className="w-[85%] md:w-[90%] py-4 text-white">
                 Let's build something legendary together
               </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
-            <ul className="uppercase">
+            <ul className="uppercase text-white">
               <Link href="home">
                 <li className="py-4 text-sm"> Home</li>
               </Link>
@@ -109,7 +109,7 @@ const Header = () => {
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's connect
               </p>
-              <div className="flex justify-between items-center my-4 w-full sm:w-[80%]">
+              <div className="flex justify-between items-center my-4 w-full sm:w-[80%] text-white">
                 <Link href="https://www.linkedin.com/in/imtiazh346/ ">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
                     <FaLinkedin size={18} />
