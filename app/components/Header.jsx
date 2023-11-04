@@ -112,17 +112,17 @@ const Header = () => {
               <div className="flex justify-between items-center my-4 w-full sm:w-[80%] text-white">
                 <Link href="https://www.linkedin.com/in/imtiazh346/ ">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                    <FaLinkedin size={18} />
+                    <FaLinkedin size={15} />
                   </div>
                 </Link>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <BsGithub size={18} />
+                  <BsGithub size={15} />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <BiLogoGmail size={18} />
+                  <BiLogoGmail size={15} />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500 ">
-                  <BsFillPersonLinesFill size={18} />
+                  <BsFillPersonLinesFill size={15} />
                 </div>
               </div>
             </div>
